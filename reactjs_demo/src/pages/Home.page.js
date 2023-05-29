@@ -41,7 +41,7 @@ function Home(props) {
                 <div className="col-3">
                     <h3>Danh Muc San Pham</h3>
                     
-                    {
+                    {/* {
                         
                         categories.map((v,k) => {
                             console.log(v.id)
@@ -50,10 +50,10 @@ function Home(props) {
                                
                             )
                         })
-                    }
+                    } */}
                 </div>
                 <h1>Danh sách sản phẩm</h1>
-                {
+                {/* {
                     products.map((v, k) => {
                         return (
                             <div className="col-3">
@@ -69,7 +69,7 @@ function Home(props) {
                             </div>
                         )
                     })
-                }
+                } */}
             </div>
         </div>
     );

@@ -9,6 +9,10 @@ const reducer = (state,action) => {
             ...state,
             isLoading: false
         }
+        case "LOGIN": return{
+            ...state,
+            token:action.payload,
+        }
         default: return state;
     }
 }
